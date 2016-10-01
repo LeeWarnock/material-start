@@ -39,13 +39,13 @@
 
 <!-- Container #4 CONTENT AREA ON RIGHT -->
     <md-content flex id="content">
-      <!-- User details sample -->
+      <md-icon md-svg-icon="{{app.selected.avatar}}" class="avatar"></md-icon>
+      <h2>{{app.selected.name}}</h2>
+      <p>{{app.selected.content}}</p>
 
-      <md-icon md-svg-src="./assets/svg/avatar-1.svg" class="avatar"></md-icon>
-      <h2>Lia Luogo</h2>
-      <p>
-        I love cheese...
-      </p>
+      <md-button class="md-fab md-fab-bottom-right">
+        <md-icon md-svg-icon="share"></md-icon>
+      </md-button>
     </md-content>
 
   </div>
