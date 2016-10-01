@@ -19,15 +19,33 @@
       <h1>Angular Material - Starter App</h1>
     </md-toolbar>
 
-    <!-- Container #2 MAIN DIV-->
+ <!-- Container #2 MAIN DIV-->
     <div flex layout="row">
 
-      <!-- Container #3 RIGHT SIDE ADMIN PANEL-->
-      <md-sidenav md-is-locked-open="true" class="md-whiteframe-4dp">
-        Sidenav
-      </md-sidenav>
+ <!-- Container #3 RIGHT SIDE ADMIN PANEL-->
+    <md-sidenav md-is-locked-open="true" class="md-whiteframe-4dp">
+      <md-list>
+        <!-- List item #1 -->
+        <md-list-item>
+          <md-button>
+            <md-icon md-svg-src="./assets/svg/avatar-1.svg" class="avatar"></md-icon>
+            Lia Luogo
+          </md-button>
+        </md-list-item>
 
-      <!-- Container #4 CONTENT AREA ON RIGHT -->
+        <!-- List item #2 -->
+        <md-list-item>
+          <md-button>
+            <md-icon md-svg-src="./assets/svg/avatar-4.svg" class="avatar"></md-icon>
+            Lawrence Ray
+          </md-button>
+        </md-list-item>
+
+      </md-list>
+    </md-sidenav>
+
+
+<!-- Container #4 CONTENT AREA ON RIGHT -->
       <md-content flex id="content">
         Content
       </md-content>
